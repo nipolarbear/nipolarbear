@@ -5,15 +5,45 @@
     <link>https://nipolarbear.github.io/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 08 Feb 2021 19:29:17 +0800</lastBuildDate><atom:link href="https://nipolarbear.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://nipolarbear.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blog</title>
-      <link>https://nipolarbear.github.io/post/blog/</link>
-      <pubDate>Mon, 08 Feb 2021 19:29:17 +0800</pubDate>
+      <title></title>
+      <link>https://nipolarbear.github.io/post/vscdoe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nipolarbear.github.io/post/blog/</guid>
-      <description>欢迎来到迪迦奥特曼的博客  hello  </description>
+      <guid>https://nipolarbear.github.io/post/vscdoe/</guid>
+      <description>vscdoe 配置python篇  前置条件：
+ 安装好Python 安装好vscode   安装vscode相关python插件  Python Pylance Code Runner （选装） Jupyter （选装）   安装插件时可能会出现一些提示信息，有允许点允许，需重启vscode点重启vscode即可
+ 配置settings.json文件 ​	打开设置
+ ctrl + ，（打开vscode设置快捷键）
+ ​	输入 setting，点击在settings.json 中编辑，进入settings.json配置文件
+​	ctrl + z 撤回
+ 因为点这个settings.json的时候是配置字体的，在此点进去会自动跳出字体的相关设置信息，不是我们需要配置的直接撤回去除，settings.json是vscode的配置文件无论什么插件或语言都是在此配置，并且是同一个settings.json。
+ ​	当打开settings.json的时候可能里面已经存在其中一些信息，我们不必删除，重点是在大花括号这项填入自己的pythonPath
+配置launch.json文件 ​	打开一个文件夹，创建一个 01.py 测试文件，内容： print(&amp;quot;hello, vscode&amp;quot;)
+​	点击文件夹中的**.vscode**的文件夹，修改**launch.json**文件，
+ （如果没有此文件夹和文件可自行创建再复制粘贴即可）
+ ​	内容改为：
+{ // 使用 IntelliSense 了解相关属性。 // 悬停以查看现有属性的描述。 // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387 &amp;#34;version&amp;#34;: &amp;#34;0.2.0&amp;#34;, &amp;#34;configurations&amp;#34;: [ { &amp;#34;name&amp;#34;: &amp;#34;Python&amp;#34;, &amp;#34;type&amp;#34;: &amp;#34;python&amp;#34;, &amp;#34;request&amp;#34;: &amp;#34;launch&amp;#34;, &amp;#34;program&amp;#34;: &amp;#34;${file}&amp;#34;, &amp;#34;console&amp;#34;: &amp;#34;integratedTerminal&amp;#34; } ] } ​	至此vscode的python环境配置已经完成，可运行01.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nipolarbear.github.io/post/win10%E4%B8%8B%E5%9F%BA%E4%BA%8Ehugo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nipolarbear.github.io/post/win10%E4%B8%8B%E5%9F%BA%E4%BA%8Ehugo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog/</guid>
+      <description>Win10下基于Hugo与Github搭建个人Blog  前置条件：已经安装Git
+ 1. install Hugo  Hugo下载地址：https://github.com/gohugoio/hugo/releases
+  为了方便使用与管理，建议在无中文的路径下创建一个名为Github的文件夹，将下载好的Hugo文件夹统一放在里面。
+ Powershell &amp;raquo; hugo version 查看版本号，若成功查看则表明安装成功。  2. 使用Hugo命令生成Blog 进入已经创建好的Github的文件夹，打开Powershell
+Powershell &amp;raquo; hugo new site myblog
+ 3. 下载Hugo主题  Hugo主题库地址：https://themes.gohugo.io/
+   方法一：进入myblog文件夹，打开Powershell，使用git克隆命令，具体命令在你选择点击的主题跳转的页面，例如：   方法二：手动下载压缩包，解压后放进myblog下的themes文件夹，具体操作在你选择点击的主题跳转的页面点击Download后，将会跳转到相应的Github页面。    4. 本地启动Blog 在myblog下： Prowershell &amp;raquo; hugo server -t [主题名称] --buildDrafts 在浏览器打开http://localhost:1313/
+5. 写一篇测试博文 在myblog下：
+ Prowershell &amp;raquo;hugo new post/xx.md 在myblog\content\post下创建一个.md文件，在此文件中编写你的博客内容
+  主要参考：CodeSheep的B站视频教程：https://www.bilibili.com/video/BV1q4411i7gL
+ </description>
     </item>
     
   </channel>

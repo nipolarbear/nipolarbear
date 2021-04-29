@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="Win10下基于Hugo与Github搭建个人Blog  前置条件：已经安装Git
+ 1. install Hugo  Hugo下载地址：https://github.com/gohugoio/hugo/releases
+  为了方便使用与管理，建议在无中文的路径下创建一个名为Github的文件夹，将下载好的Hugo文件夹统一放在里面。
+ Powershell &amp;raquo; hugo version 查看版本号，若成功查看则表明安装成功。  2. 使用Hugo命令生成Blog 进入已经创建好的Github的文件夹，打开Powershell
+Powershell &amp;raquo; hugo new site myblog
+ 3. 下载Hugo主题  Hugo主题库地址：https://themes.gohugo.io/
+   方法一：进入myblog文件夹，打开Powershell，使用git克隆命令，具体命令在你选择点击的主题跳转的页面，例如：   方法二：手动下载压缩包，解压后放进myblog下的themes文件夹，具体操作在你选择点击的主题跳转的页面点击Download后，将会跳转到相应的Github页面。    4. 本地启动Blog 在myblog下： Prowershell &amp;raquo; hugo server -t [主题名称] --buildDrafts 在浏览器打开http://localhost:1313/
+5. 写一篇测试博文 在myblog下：
+ Prowershell &amp;raquo;hugo new post/xx.md 在myblog\content\post下创建一个.md文件，在此文件中编写你的博客内容
+  主要参考：CodeSheep的B站视频教程：https://www.bilibili.com/video/BV1q4411i7gL
+ " />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://nipolarbear.github.io/post/win10%E4%B8%8B%E5%9F%BA%E4%BA%8Ehugo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog/" />
+
+
+    <title>
+        
+             :: My New Hugo Site 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css"> 
+
+
+
+
+<link rel="stylesheet" href="/main.805b1025016494ee5fd67b55b8ecd5e2b7c4a9f0bdda42e300c62b85ddfef68f.css">
+
+
+  
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="">
+<meta itemprop="description" content="Win10下基于Hugo与Github搭建个人Blog  前置条件：已经安装Git
+ 1. install Hugo  Hugo下载地址：https://github.com/gohugoio/hugo/releases
+  为了方便使用与管理，建议在无中文的路径下创建一个名为Github的文件夹，将下载好的Hugo文件夹统一放在里面。
+ Powershell &raquo; hugo version 查看版本号，若成功查看则表明安装成功。  2. 使用Hugo命令生成Blog 进入已经创建好的Github的文件夹，打开Powershell
+Powershell &raquo; hugo new site myblog
+ 3. 下载Hugo主题  Hugo主题库地址：https://themes.gohugo.io/
+   方法一：进入myblog文件夹，打开Powershell，使用git克隆命令，具体命令在你选择点击的主题跳转的页面，例如：   方法二：手动下载压缩包，解压后放进myblog下的themes文件夹，具体操作在你选择点击的主题跳转的页面点击Download后，将会跳转到相应的Github页面。    4. 本地启动Blog 在myblog下： Prowershell &raquo; hugo server -t [主题名称] --buildDrafts 在浏览器打开http://localhost:1313/
+5. 写一篇测试博文 在myblog下：
+ Prowershell &raquo;hugo new post/xx.md 在myblog\content\post下创建一个.md文件，在此文件中编写你的博客内容
+  主要参考：CodeSheep的B站视频教程：https://www.bilibili.com/video/BV1q4411i7gL
+ ">
+
+<meta itemprop="wordCount" content="46">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="Win10下基于Hugo与Github搭建个人Blog  前置条件：已经安装Git
+ 1. install Hugo  Hugo下载地址：https://github.com/gohugoio/hugo/releases
+  为了方便使用与管理，建议在无中文的路径下创建一个名为Github的文件夹，将下载好的Hugo文件夹统一放在里面。
+ Powershell &raquo; hugo version 查看版本号，若成功查看则表明安装成功。  2. 使用Hugo命令生成Blog 进入已经创建好的Github的文件夹，打开Powershell
+Powershell &raquo; hugo new site myblog
+ 3. 下载Hugo主题  Hugo主题库地址：https://themes.gohugo.io/
+   方法一：进入myblog文件夹，打开Powershell，使用git克隆命令，具体命令在你选择点击的主题跳转的页面，例如：   方法二：手动下载压缩包，解压后放进myblog下的themes文件夹，具体操作在你选择点击的主题跳转的页面点击Download后，将会跳转到相应的Github页面。    4. 本地启动Blog 在myblog下： Prowershell &raquo; hugo server -t [主题名称] --buildDrafts 在浏览器打开http://localhost:1313/
+5. 写一篇测试博文 在myblog下：
+ Prowershell &raquo;hugo new post/xx.md 在myblog\content\post下创建一个.md文件，在此文件中编写你的博客内容
+  主要参考：CodeSheep的B站视频教程：https://www.bilibili.com/video/BV1q4411i7gL
+ "/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://nipolarbear.github.io" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">My New Hugo Site</span>
+            <span class="logo__text"></span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+             
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post"> 
+
+        <article>
+            <h2 class="post-title"><a href="https://nipolarbear.github.io/post/win10%E4%B8%8B%E5%9F%BA%E4%BA%8Ehugo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog/"></a></h2>
+
+            
+
+            <div class="post-content">
+                <h1 id="win10下基于hugo与github搭建个人blog">Win10下基于Hugo与Github搭建个人Blog</h1>
+<blockquote>
+<p>前置条件：已经安装Git</p>
+</blockquote>
+<h2 id="1-install-hugo">1. install Hugo</h2>
+<blockquote>
+<p><strong><a href="https://github.com/gohugoio/hugo/releases">Hugo下载地址：</a></strong><a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a></p>
+</blockquote>
+<blockquote>
+<p>为了方便使用与管理，建议在无中文的路径下创建一个名为Github的文件夹，将下载好的Hugo文件夹统一放在里面。</p>
+</blockquote>
+<p>Powershell &raquo; <code>hugo version</code> 查看版本号，若成功查看则表明安装成功。
+<!-- raw HTML omitted --></p>
+<hr>
+<h2 id="2-使用hugo命令生成blog">2. 使用Hugo命令生成Blog</h2>
+<p>进入已经创建好的Github的文件夹，打开Powershell</p>
+<p>Powershell &raquo; <code>hugo new site myblog</code></p>
+<hr>
+<h2 id="3-下载hugo主题">3. 下载Hugo主题</h2>
+<blockquote>
+<p><a href="https://themes.gohugo.io/">Hugo主题库地址：</a><a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
+</blockquote>
+<ul>
+<li>
+<p>方法一：进入myblog文件夹，打开Powershell，使用git克隆命令，具体命令在你选择点击的主题跳转的页面，例如：
+<!-- raw HTML omitted --></p>
+</li>
+<li>
+<p>方法二：手动下载压缩包，解压后放进myblog下的themes文件夹，具体操作在你选择点击的主题跳转的页面点击Download后，将会跳转到相应的Github页面。
+<!-- raw HTML omitted --></p>
+</li>
+</ul>
+<hr>
+<h2 id="4-本地启动blog">4. 本地启动Blog</h2>
+<p>在myblog下：
+Prowershell &raquo; <code>hugo server -t [主题名称] --buildDrafts</code>
+<!-- raw HTML omitted -->
+在浏览器打开<a href="http://localhost:1313/">http://localhost:1313/</a></p>
+<h2 id="5-写一篇测试博文">5. 写一篇测试博文</h2>
+<p>在myblog下：</p>
+<blockquote>
+<p>Prowershell &raquo;<code>hugo new post/xx.md</code> 
+在myblog\content\post下创建一个.md文件，在此文件中编写你的博客内容</p>
+</blockquote>
+<blockquote>
+<p>主要参考：<a href="https://www.bilibili.com/video/BV1q4411i7gL">CodeSheep的B站视频教程：</a><a href="https://www.bilibili.com/video/BV1q4411i7gL">https://www.bilibili.com/video/BV1q4411i7gL</a></p>
+</blockquote>
+ 
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+
+             
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+             
+        </div>
+    </div> 
+</footer>
+<script type="text/javascript">
+    $(function(){
+
+  window.sr = ScrollReveal();
+
+  if ($(window).width() < 768) {
+
+    if ($('.timeline-content').hasClass('js--fadeInLeft')) {
+        $('.timeline-content').removeClass('js--fadeInLeft').addClass('js--fadeInRight');
+    }
+
+    sr.reveal('.js--fadeInRight', {
+        origin: 'right',
+        distance: '300px',
+        easing: 'ease-in-out',
+        duration: 800,
+      });
+
+  } else {
+    
+    sr.reveal('.js--fadeInLeft', {
+        origin: 'left',
+        distance: '300px',
+          easing: 'ease-in-out',
+        duration: 800,
+      });
+
+      sr.reveal('.js--fadeInRight', {
+        origin: 'right',
+        distance: '300px',
+        easing: 'ease-in-out',
+        duration: 800,
+      });
+
+  }
+  
+  sr.reveal('.js--fadeInLeft', {
+        origin: 'left',
+        distance: '300px',
+          easing: 'ease-in-out',
+        duration: 800,
+      });
+
+      sr.reveal('.js--fadeInRight', {
+        origin: 'right',
+        distance: '300px',
+        easing: 'ease-in-out',
+        duration: 800,
+      });
+
+
+});
+
+</script>
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" integrity="sha512-3HFukJLJggt3&#43;W2ilNASCu6xibW86pdSMJ6&#43;on/VO75rE8/7KsqOzzJSVkfOtwAfdgkd5BmaxaPKpDLAcCR/Ww=="></script>
+
+
+
+    </body>
+</html>
