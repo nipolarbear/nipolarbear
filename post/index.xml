@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>https://nipolarbear.github.io/post/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://nipolarbear.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <title>Posts on Wave&#39;s Blog🐳</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Wave&#39;s Blog🐳</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://nipolarbear.github.io/post/vscdoe/</link>
+      <link>/post/vscdoe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nipolarbear.github.io/post/vscdoe/</guid>
+      <guid>/post/vscdoe/</guid>
       <description>vscdoe 配置python篇  前置条件：
  安装好Python 安装好vscode   安装vscode相关python插件  Python Pylance Code Runner （选装） Jupyter （选装）   安装插件时可能会出现一些提示信息，有允许点允许，需重启vscode点重启vscode即可
  配置settings.json文件 ​	打开设置
@@ -29,10 +28,10 @@
     
     <item>
       <title></title>
-      <link>https://nipolarbear.github.io/post/win10%E4%B8%8B%E5%9F%BA%E4%BA%8Ehugo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog/</link>
+      <link>/post/win10%E4%B8%8B%E5%9F%BA%E4%BA%8Ehugo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nipolarbear.github.io/post/win10%E4%B8%8B%E5%9F%BA%E4%BA%8Ehugo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog/</guid>
+      <guid>/post/win10%E4%B8%8B%E5%9F%BA%E4%BA%8Ehugo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog/</guid>
       <description>Win10下基于Hugo与Github搭建个人Blog  前置条件：已经安装Git
  1. install Hugo  Hugo下载地址：https://github.com/gohugoio/hugo/releases
   为了方便使用与管理，建议在无中文的路径下创建一个名为Github的文件夹，将下载好的Hugo文件夹统一放在里面。

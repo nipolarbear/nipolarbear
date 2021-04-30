@@ -1,29 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
   
-  <url>
-    <loc>https://nipolarbear.github.io/post/vscdoe/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nipolarbear.github.io/post/win10%E4%B8%8B%E5%9F%BA%E4%BA%8Ehugo%E4%B8%8Egithub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nipolarbear.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nipolarbear.github.io/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nipolarbear.github.io/post/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nipolarbear.github.io/tags/</loc>
-  </url>
-  
+
 </urlset>
